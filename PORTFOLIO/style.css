@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#bg{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 80px;
+    /* background-color: #dadada; */
+    margin: auto;
+}
+
+nav img{
+    width: 150px; 
+    height: 100px; 
+    margin-right: 10px;
+}
+
+nav #links{
+    display: flex;
+    align-items: center;
+}
+
+nav #links a{
+    margin-left: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    opacity: .3;
+    letter-spacing: 4px;
+}
+
+nav #links i{
+    margin-left: 50px;
+}
+
+nav #links a:nth-child(2){
+    color: red;
+}
+
+#sections{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#left{
+    width: 50%;
+    padding: 100px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+#left #smline{
+    width: 80px;
+    height: 3px;
+    background-color: black;
+    
+}
+
+#left h4{
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: Gilroy™;
+}
+
+#left img{
+    width: 800px;
+    margin-left: -80px;
+    margin-top: -290px;
+
+}
+
+#left>h5{
+    width: 150%;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: -380px;
+    margin-left: 15px;
+    font-weight: 600;
+    opacity: .3;
+}
+
+#left>h5 span{
+    opacity: 1;
+    color: lightblue;
+}
+
+#playbtn img{
+    width: 50px;
+    margin-left: 5px;
+}
+
+#playbtn{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#playbtn h5{
+    margin-top: -290px;
+    margin-left: 10px;
+    letter-spacing: 10px;
+    opacity: .9;
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+#contact{
+    margin-top: auto;
+}
+
+#contact h3{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-top: 200;
+    color: blueviolet;
+}
+
+#contact h6{
+    margin-top: 10px;
+}
+
+#contact h6 span{
+    color: grey;
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
